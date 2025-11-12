@@ -1,10 +1,14 @@
-使用以下命令构建程序：
+### 介绍
+
+本程序是一个命令行程序，用来获取指定城市的天气信息。
+
+可以使用以下命令构建程序：
 
 ```go
 go build -o weather-reporter .
 ```
 
-如何使用？
+如何使用本程序？
 
 ```azure
 ./weather-reporter {cityname}
@@ -20,4 +24,5 @@ go build -o weather-reporter .
 高温 18℃  低温 10℃  日出：06:56  日落：17:22  风向：西南风  风速：2级
 
 ```
+
 
